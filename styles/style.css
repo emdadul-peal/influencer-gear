@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    width: 1000px;
+    border: 2px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0px 50px;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    /* border: 5px solid rgb(20, 126, 12); */
+}
+
+.start-influencer {
+    width: 50%;
+    height: 50%;
+}
+
+
+.start-influencer h2 {
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.start-influencer p {
+    font-size: 16px;
+}
+
+
+
+.prebook {
+    background-color: #E02C6D;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    width: 196px;
+    height: 44px;
+    font-size: 16px;
+
+
+}
+
+.prebook a {
+    text-decoration: none;
+    color: white;
+}
+
+/* }
+
+.prebook a {
+    text-decoration: none;
+    color: white;
+} */
+
+.image1 {
+    width: 50%;
+    /* height: 50%; */
+    /* margin-left: 250px; */
+
+}
+
+/* 
+#camera-img {
+    position: relative;
+    top: -450px;
+} */
+
+/* ------------------logos--------------- */
+hr {
+    background-color: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logos {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+/* --------------------------items-------- */
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin: 50px;
+    /* border: 2px solid red; */
+}
+
+.item {
+    padding: 15px;
+    /* width: 329px;
+    height: 476px; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    /* border: 2px solid blue; */
+}
+
+.content img {
+    width: 100%;
+}
+
+#see-more {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+/* ------------------featured------------- */
+
+.featured-info {
+    margin-left: 20px;
+}
+
+/* ---------------------------footer------------- */
+
+footer {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: #0A0826;
+    color: white;
+}
+
+.footer-info h1,
+h2,
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info h1 {
+    padding-top: 50px;
+}
+
+.footer-icon {
+    gap: 20px;
+    padding-bottom: 50px;
+}
