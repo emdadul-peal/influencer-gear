@@ -3,6 +3,7 @@
 body {
     width: 1000px;
     border: 2px solid red;
+    margin: 0 auto;
 }
 
 header {
